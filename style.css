@@ -1,0 +1,175 @@
+table {
+	border-radius: 22px;
+}
+
+input[type="password"] 	{
+  -webkit-text-security: disc;
+}
+
+.bsi
+{
+	border: 2px solid #3E1C8C;
+}
+
+.bsi:hover
+{
+	background-color: rgba(49,12,114,.8);
+}
+
+.hoove{
+	border: 3px solid #715CF5;
+}
+
+.hoove:focus, .hoove:hover
+{
+	border-color: #3E1C8C;
+}
+
+.ct0 
+{
+	color: #F4F3FF;
+}
+
+.cc0 
+{
+	background-color: #F4F3FF;
+}
+
+.ct1 
+{
+	color: #DFDCFD;
+}
+
+.cc1 {
+	background-color: #DFDCFD;
+}
+
+.ct2 {
+	color: #715CF5;
+}
+
+.cc2 {
+	background-color: #715CF5;
+}
+
+.ct3 {
+	color: #5540D7;
+}
+
+.cc3 {
+	background-color: #5540D7;
+}
+
+.ct4 {
+	color: #310C72;
+}
+
+.cc4 {
+	background-color: #310C72;
+}
+
+.cl1 {
+	background-color: #715CF5;
+}
+
+.cl2
+{
+	background-color: #310C72;
+}
+
+.clt1 
+{
+	color: #310C72;
+}
+
+.testingtesting {
+	width: 200px;
+	height: 200px;
+}
+
+.custsidenav {
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	height: 100%;
+	width: 70px;
+	background-color: #F4F3FF;
+}
+
+.custsidenav img {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.btn-cust1 
+{
+	background-color: #F4F3FF;
+	border-radius: 0px;
+	border-width: 0px 5px;
+	border-color: #F4F3FF;
+	height: 70px;
+}
+
+.btn-cust1:hover
+{
+	background-color: #DFDCFD;
+	border-left-color: #5540D7;
+	border-right-color: #DFDCFD;
+}
+
+.custcont1 {
+	width: 100%;
+	text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.blop {
+	width: 20%;
+	text-align:  center;
+}
+
+.blop:hover {
+	background-color: #5F48F9;
+	color: #F4F3FF;
+}
+
+.blop:active {
+	background-color: #5540D7;
+	color: #F4F3FF;
+}
+
+.fillerthingy {
+	width: 100%;
+	display: inline-block;
+}
+
+.custcont1 div {
+	vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+.custtable1 {
+	border-radius: 25px;
+	padding: 10px 10px;
+}
+
+.fleft {
+	float: left;
+}
+
+.rounder {
+	border-radius: 20px;
+}
+
+.yellou {
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: yellow;
+}
