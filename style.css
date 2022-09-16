@@ -1,19 +1,23 @@
-table {
+table 
+{
 	border-radius: 22px;
 }
 
-input[type="password"] 	{
+input[type="password"] 	
+{
   -webkit-text-security: disc;
 }
 
 .bsi
 {
-	border: 2px solid #3E1C8C;
+	border: 0px;
+	padding: 0.6rem 0rem;
 }
 
-.bsi:hover
+.bsi:hover 
 {
 	background-color: rgba(49,12,114,.8);
+	border: 0px;
 }
 
 .hoove{
@@ -82,12 +86,8 @@ input[type="password"] 	{
 	color: #310C72;
 }
 
-.testingtesting {
-	width: 200px;
-	height: 200px;
-}
-
-.custsidenav {
+.custsidenav 
+{
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -98,7 +98,8 @@ input[type="password"] 	{
 	background-color: #F4F3FF;
 }
 
-.custsidenav img {
+.custsidenav img 
+{
 	width: 100%;
 	height: auto;
 	float: left;
@@ -120,56 +121,86 @@ input[type="password"] 	{
 	border-right-color: #DFDCFD;
 }
 
-.custcont1 {
+.custcont1 
+{
 	width: 100%;
 	text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
 }
 
-.blop {
-	width: 20%;
-	text-align:  center;
-}
-
-.blop:hover {
-	background-color: #5F48F9;
-	color: #F4F3FF;
-}
-
-.blop:active {
-	background-color: #5540D7;
-	color: #F4F3FF;
-}
-
-.fillerthingy {
-	width: 100%;
-	display: inline-block;
-}
-
-.custcont1 div {
+.custcont1 div 
+{
 	vertical-align: top;
     display: inline-block;
     *display: inline;
     zoom: 1;
 }
 
-.custtable1 {
+.blop 
+{
+	width: 20%;
+	text-align:  center;
+}
+
+.blop:hover 
+{
+	background-color: #5F48F9;
+	color: #F4F3FF;
+}
+
+.blop:active 
+{
+	background-color: #5540D7;
+	color: #F4F3FF;
+}
+
+.fillerthingy 
+{
+	width: 100%;
+	display: inline-block;
+}
+
+.custtable1 
+{
 	border-radius: 25px;
 	padding: 10px 10px;
 }
 
-.fleft {
+.fleft 
+{
 	float: left;
 }
 
-.rounder {
+.rounder 
+{
 	border-radius: 20px;
 }
 
-.yellou {
-	width: 30px;
-	height: 30px;
-	border-radius: 15px;
+.yellou 
+{
+	width: 8rem;
+	height: 8rem;
+	border-radius: 4rem;
 	background-color: yellow;
+}
+
+.yellou:hover 
+{
+	background-color: lightyellow;
+}
+
+.lim1 
+{
+	max-height: 60px;
+}
+
+.lim2 
+{
+	min-height: 300px;
+  max-height: 300px;
+}
+
+.table td{
+	border: 0;
 }
