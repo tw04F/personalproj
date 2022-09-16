@@ -123,10 +123,14 @@ input[type="password"]
 
 .custcont1 
 {
-	width: 100%;
+	width: auto;
 	text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
+}
+
+.cusminw {
+	min-width: 936px;
 }
 
 .custcont1 div 
