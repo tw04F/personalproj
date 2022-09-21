@@ -179,11 +179,34 @@ input[type="password"]
 	border-radius: 20px;
 }
 
+.rdt
+{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.rdb
+{
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.rbr
+{
+	border-right: 2px solid #CCC7F7;
+}
+
+.lbr
+{
+	border-left: 2px solid #CCC7F7;
+}
+
 .yelbut
 {
 	width: 100%;
 	height: auto;
 	min-width: 50px;
+	max-width: 150px;
 	border-radius: 100%;
 	background-color: yellow;
 }
@@ -204,6 +227,17 @@ input[type="password"]
   max-height: 300px;
 }
 
-.table td{
+.table td, .table th{
 	border: 0;
+}
+
+
+.tddiv
+{
+	border-bottom: .2rem solid black3;
+}
+
+.bnone
+{
+	list-style-type: none;
 }
