@@ -123,14 +123,9 @@ input[type="password"]
 
 .custcont1 
 {
-	width: auto;
 	text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
-}
-
-.cusminw {
-	min-width: 936px;
 }
 
 .custcont1 div 
@@ -141,6 +136,9 @@ input[type="password"]
     zoom: 1;
 }
 
+.mw1 {
+	min-width: 576px;
+}
 .blop 
 {
 	width: 20%;
@@ -181,15 +179,16 @@ input[type="password"]
 	border-radius: 20px;
 }
 
-.yellou 
+.yelbut
 {
-	width: 8rem;
-	height: 8rem;
-	border-radius: 4rem;
+	width: 100%;
+	height: auto;
+	min-width: 50px;
+	border-radius: 100%;
 	background-color: yellow;
 }
 
-.yellou:hover 
+.yelbut:hover 
 {
 	background-color: lightyellow;
 }
