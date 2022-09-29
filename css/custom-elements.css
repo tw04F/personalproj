@@ -1,0 +1,56 @@
+/* Boostrap Overrides */
+
+/* Common overrides */
+.bg-primary {
+	background-color: #956EFA;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+
+.active {
+	background-color: #3B2865 !important;
+}
+
+/* Forms */
+input[type='text'], input[type='password']  {
+	padding: 20px;
+	border-radius: 30px;
+}
+/* End Forms */
+
+/* Text */
+.bg-primary h2 {
+	font-size: 20pt;
+	font-weight: 700;
+}
+
+.accordion-body, .card-body, .modal-body {
+	color: #000;
+}
+
+.breadcrumb-item {
+	color: #fff;
+}
+
+.breadcrumb-item a{
+	color: #fff;
+}
+/* Text and Fonts */
+
+/* Buttons */
+.bg-primary label {
+	font-size: 12pt;
+	font-weight: 600;
+}
+
+.bg-primary .btn-primary {
+	background-color: #3B2865;
+	font-weight: 600;
+	padding: 15px 25px 15px 25px;
+}
+
+/* End Text and Fonts */
+
+/* End common overrides */
+
+/* Boostrap Overrides */
